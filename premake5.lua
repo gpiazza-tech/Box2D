@@ -20,7 +20,7 @@ project "box2d"
 
 	filter "system:windows"
         systemversion "latest"
-		defines { "_Static_assert static_assert"}
+		defines { "_Static_assert=static_assert"}
 		
 	filter "configurations:Debug"
         runtime "Debug"
